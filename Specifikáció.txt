@@ -1,0 +1,4 @@
+Olyan programot szeretnék impelemtálni amivel Centereket(hangszzorok)-nak több fajtáját tudnám implementálni(Prototype tervezési mintával)
+	és lehessen őkét más szempontok szerint dekorálni(díszítő tervezesé minta), és a Centereknek legyenek állapotai amiket tudok váltani
+	erre a állapot tervezési mintatát szeretném alkalmazni(state), és egy observert implementálva a létre hozott centereket eltarolni vagy az állapotokat eltárolni
+	egy listában az observert használva.
