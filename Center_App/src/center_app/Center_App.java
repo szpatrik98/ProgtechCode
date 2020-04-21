@@ -5,6 +5,12 @@
  */
 package center_app;
 
+import Prototype.Lejatszas_mod;
+import Prototype.Hangszoro;
+import Prototype.Center;
+import State_classes.change;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.text.ParseException;
 import java.util.ArrayList;
 
@@ -17,7 +23,7 @@ public class Center_App {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args)throws ParseException{
+    public static void main(String[] args)throws IOException{
         
         //példányosíto  lejátszási módót.
         Lejatszas_mod CD = new Lejatszas_mod("CD-és");
@@ -53,12 +59,22 @@ public class Center_App {
             
             for (Hangszoro hangszoro : center.hangszorok){
                 System.out.println("a hangszoro márkája" +": " + hangszoro.getName());
-                System.out.println(" Lejátszás módja: "+ hangszoro.getLejatszas_mode());
+                //System.out.println(" Lejátszás módja: "+ hangszoro.getLejatszas_mode());
             }
             
         }
         
-                                
+        
+        //A center állapotainak tesztelése.
+        System.out.println("Hangsozró állapotainak tesztelése.");
+        InputStreamReader is = new InputStreamReader( System.in );
+        change chain = new change();
+        while (true) {
+            System.out.print( "Nyomja meg az  'Enter' gombot." );
+
+            is.read();
+            chain.pull();
+        }
                                 
           
        
