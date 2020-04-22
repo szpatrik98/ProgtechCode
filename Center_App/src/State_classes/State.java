@@ -14,6 +14,6 @@ abstract  class State {
     //felveszek egy uj állapotot. Kikapcsolás.
     public void pull(change wrapper) {
         wrapper.setState(new Off_state());
-        System.out.println("  Kikapcsolás.");
+        System.out.println("        Kikapcsolás.");
     }
 }

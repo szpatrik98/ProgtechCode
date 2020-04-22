@@ -13,6 +13,6 @@ public class On_state extends State {
     //felveszek egy uj állapotot. A hangerő fel állapot.
     public void pull(change wrapper) {
         wrapper.setState(new Volume_Up_state());
-        System.out.println("  Hangerő fel.");
+        System.out.println("         Hangerő fel.");
     }
 }

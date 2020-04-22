@@ -14,6 +14,6 @@ public class Off_state extends State {
     //felveszek egy uj állapotot. A bekapcsolás állapotát.
     public void pull(change wrapper) {
         wrapper.setState(new On_state());
-        System.out.println( "  Bekapcsolás. " );
+        System.out.println( "           Bekapcsolás. " );
  }
 }

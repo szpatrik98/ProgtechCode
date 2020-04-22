@@ -14,6 +14,6 @@ public class Volume_Up_state extends State {
     //felveszek egy uj állapotot. A hangerő le állapot.
     public void pull(change wrapper) {
         wrapper.setState(new Volume_Low_state());
-        System.out.println("   Hangerő le.");
+        System.out.println("         Hangerő le.");
     }
 }
