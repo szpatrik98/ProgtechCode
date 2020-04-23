@@ -1,4 +1,5 @@
 Olyan programot szeretnék impelemtálni amivel Centereket(hangszzorok)-nak több fajtáját tudnám implementálni(Prototype tervezési mintával)
-	és lehessen őkét más szempontok szerint dekorálni(díszítő tervezesé minta), és a Centereknek legyenek állapotai amiket tudok váltani
-	erre a állapot tervezési mintatát szeretném alkalmazni(state), és egy observert implementálva a létre hozott centereket eltarolni vagy az állapotokat eltárolni
-	egy listában az observert használva.
+	és a Centereknek legyenek állapotai amiket tudok váltani tesztelni
+	erre a állapot tervezési mintatát szeretném alkalmazni(state) olyan állapotokra gondoltam mint pl: Bekapcsolás ,Hangerő fel..., és egy observert implementálva a a megrendéleseket hogy ki rendelt és mileyn tipusu megrendelés pl:Chris- házhozszálitás.
+	A Visitor tervezési mintát meg arra szeretném leimplementálni hogy akár egy netes vagy betelefonálás megrendelés menete hogyan zajlik le a 3 fél között( az eladó/vevő/kiszáltó között).
+	
