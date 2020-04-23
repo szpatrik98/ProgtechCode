@@ -12,6 +12,10 @@ import Prototype.Lejatszas_mod;
 import Prototype.Hangszoro;
 import Prototype.Center;
 import State_classes.change;
+import Visitor.BER;
+import Visitor.Base;
+import Visitor.SER;
+import Visitor.TER;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -93,6 +97,22 @@ public class Center_App {
         
        
         System.out.println();   
+        //visistor
+        
+        System.out.println("A telefonos megrendelés folymatai:  ");   
+        
+        Base objects[] = {new SER(), new BER(), new TER()};
+        for (Base object : objects) {
+            for (int j = 0; j < 3; j++) {
+                object.execute(objects[j]);
+            }
+            System.out.println();
+        }
+        
+        
+        
+        
+         System.out.println();
         //A center állapotainak tesztelése.
         System.out.println("        Hangsozró állapotainak tesztelése.");
         InputStreamReader is = new InputStreamReader( System.in );
