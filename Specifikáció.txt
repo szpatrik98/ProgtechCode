@@ -1,5 +1,12 @@
-Olyan programot szeretnék impelemtálni amivel Centereket(hangszzorok)-nak több fajtáját tudnám implementálni(Prototype tervezési mintával)
-	és a Centereknek legyenek állapotai amiket tudok váltani tesztelni
-	erre a állapot tervezési mintatát szeretném alkalmazni(state) olyan állapotokra gondoltam mint pl: Bekapcsolás ,Hangerő fel..., és egy observert implementálva a a megrendéleseket hogy ki rendelt és mileyn tipusu megrendelés pl:Chris- házhozszálitás.
-	A Visitor tervezési mintát meg arra szeretném leimplementálni hogy akár egy netes vagy betelefonálás megrendelés menete hogyan zajlik le a 3 fél között( az eladó/vevő/kiszáltó között).
+Olyan programot szeretnék impelemtálni amivel Centereket(hangszzorok)-nak több fajtáját tudnám implementálni(Prototype tervezési mintával) és így könnyen lehet clonozni egy adott tipust.
+
+A Centereknek legyenek állapotai amiket tudok váltani tesztelni erre a állapot tervezési mintatát szeretném alkalmazni(state) olyan állapotokra gondoltam mint pl: Bekapcsolás ,Hangerő fel,hang erő le, és consolon a prora futása közben a programot futtató személy egy gomb lenyomásával(ENTER gomb) váltana az állapotok között.
+
+Egy observert implementálva egy boltból megrendelt termék jelen esetünkbe a centert ki rendelte és a megrendelés típusa legyen fletüntvem mint pl:Chris- házhozszálitás.
+	
+A Visitor tervezési mintát meg arra szeretném leimplementálni hogy akár egy netes vagy betelefonálás megrendelés menete hogyan zajlik le a 3 fél között( az eladó/vevő/kiszáltó között).
+
+
+Unit tesztek leírása: Ne lehessen két ugyan olyan névvel centert létrehozni. A hangfalak száma ne lehessen nulla vagy negativ. Az állapotok egymást kövőten a helyes sorrendbe menjenek végbe.
+
 	
