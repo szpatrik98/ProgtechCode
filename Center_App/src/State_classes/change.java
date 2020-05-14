@@ -10,6 +10,7 @@ package State_classes;
  * @author szabb
  */
 public class change {
+   
     //létre hozok egy state változot.
     private State current;
 

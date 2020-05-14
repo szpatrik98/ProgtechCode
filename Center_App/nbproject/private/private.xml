@@ -5,18 +5,23 @@
         <group>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/State_classes/Volume_Up_state.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/State_classes/On_state.java</file>
+            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Visitor/Base.java</file>
+            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Visitor/SER.java</file>
+            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Visitor/TER.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/State_classes/change.java</file>
+            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Visitor/BER.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/State_classes/State.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/State_classes/Off_state.java</file>
-            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Observer_classes/Subject.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/center_app/Center_App.java</file>
+            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Observer_classes/Subject.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/State_classes/Volume_Low_state.java</file>
+            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/test/src/UnitTests.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Observer_classes/Travel.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Prototype/Lejatszas_mod.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Prototype/Hangszoro.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Observer_classes/Observer.java</file>
-            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Observer_classes/Shop.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Observer_classes/Person.java</file>
+            <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Observer_classes/Shop.java</file>
             <file>file:/D:/Suli/progtech/DesignPatterns/Center_App/src/Prototype/Center.java</file>
         </group>
     </open-files>

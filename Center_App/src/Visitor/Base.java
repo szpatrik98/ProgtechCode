@@ -10,6 +10,8 @@ package Visitor;
  * @author szabb
  */
 public interface Base {
+    
+    //szükséges függvények egy osztályba összeszedve és all osztályokba kifejtve pontosan.
     void execute(Base target);
     void doJob(SER target);
     void doJob(BER target);

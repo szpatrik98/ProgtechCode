@@ -12,7 +12,7 @@ package Observer_classes;
  */
 public interface Subject {
    
-
+// a szükséges hozza adás,törlés,és kiírás metodus.
   void Attach(Observer o);
   void Dettach(Observer o);
   void Notify();

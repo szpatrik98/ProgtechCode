@@ -11,5 +11,6 @@ package Observer_classes;
  */
 public interface  Observer {
     
+    //szükséges update metodus egy interfacbe implementálva.
      void update(Object o);
 }

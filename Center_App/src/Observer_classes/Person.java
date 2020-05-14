@@ -10,6 +10,7 @@ package Observer_classes;
  * @author szabb
  */
 public class Person implements Observer{
+    
     String name ;
     
     public Person(String name){

@@ -10,10 +10,11 @@ package Visitor;
  * @author szabb
  */
 public class BER implements Base {
+    //az összes függvény kifejtése/impelemtálás.
     public void execute(Base base) {
         base.doJob(this);
     }
-
+    
     public void doJob(SER foo) {
             System.out.println("        A Boltos hívni fogja a vásárlót.");
     }

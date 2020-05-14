@@ -10,7 +10,8 @@ package Visitor;
  * @author szabb
  */
 public class SER  implements Base{
-      public void execute(Base base) {
+    //az összes függvény kifejtése/impelemtálás.
+    public void execute(Base base) {
         base.doJob(this);
     }
 

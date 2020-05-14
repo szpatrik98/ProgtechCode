@@ -30,12 +30,12 @@ public class Center_App {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args)throws IOException{
+    public static void main(String[] args)throws IOException, Exception{
         
-        //példányosíto  lejátszási módót.
+        //példányosít  lejátszási módót.
         Lejatszas_mod CD = new Lejatszas_mod("CD-és");
         
-        //példányosítok  hangszoro tipust aminek van lejátszási módja
+        //példányosít  hangszoro tipust aminek van lejátszási módja
         Hangszoro JBL = new Hangszoro("JBL",CD);
         
         //hozzá adom a hangszorok listához.
@@ -50,15 +50,19 @@ public class Center_App {
                                 2,
                                 hangszorok);
         
-       Center ujCenter_Philiphs = ujCenter_Sony.clone("     Philiphs");
         
+        
+       Center ujCenter_Philiphs = ujCenter_Sony.clone("     Philiphs");
+       Center ujCenter_Acer = ujCenter_Samsung.clone("     ACER");
         //létre hozok egy centerek listát majd hozzá adom a létre jött centereket.
         ArrayList<Center> centerek = new ArrayList<Center>();
         centerek.add(ujCenter_Sony);
         centerek.add(ujCenter_Samsung);
         centerek.add(ujCenter_Philiphs);
-
-        //az összes centert tulajdonságal kiirtaom és azért forral hogy ha ksssőbbiekbe 
+        centerek.add(ujCenter_Acer);
+        
+        
+        //az összes centert tulajdonságal kiirtaom és azért forral hogy ha késsőbbiekbe 
         //bővitve lenne a program ne keljen még ezzel foglalkozni.
         for(Center center : centerek){
             System.out.println(center.getNev() + " Típusú és A Hangszórók száma : " +                               
@@ -70,37 +74,52 @@ public class Center_App {
             }
             
         }
+        //Ez csak egy plus sor hogy a consolon jol nézen ki.
+        System.out.println();  
         
-        System.out.println();              
+        
+        
         //Observer
         
         System.out.println("           A megrendelések listája.");
+        
+        //Ez csak egy plus sor hogy a consolon jol nézen ki.
         System.out.println();
+        
+        //példányosítok egy boltot.
         Shop shop = new Shop();
         
+        //példányosítom az embereket.akik a megrendelők.
         Person chris = new Person("Chris");
         Person john = new Person("John");
         Person roger = new Person("Roger");
         
+        //létre hozom hogy ki milyen tipusu megrendelést kér.
         Travel at_home = new Travel("John","    Házhoz szálitással kérte.");
         Travel go_to = new Travel("Chris","     Érte megy majd.");
         Travel now = new Travel("Roger","   Helyben vásárolta most.");
         
-        
+        //hozza adom az observeket az observer listához.Akik a megrendelők.
         shop.Attach(chris);        
         shop.Attach(john);
         shop.Attach(roger);     
-                   
+             
+        //Itt a kiszáltás listához adom hozzá a kiszálíítás típusát.
         shop.addTravel(at_home);                       
         shop.addTravel(go_to);
         shop.addTravel(now);
         
-       
+        //Ez csak egy plus sor hogy a consolon jol nézen ki.
         System.out.println();   
+       
+        
         //visistor
         
         System.out.println("A telefonos megrendelés folymatai:  ");   
         
+        // példányosítom a Base-t.
+        //utána végig megyek az objecteken addig ameddig tart az object és majd egy for ciklusal ami csak 3 ig megy
+        //kiirtaom a hivasokat.
         Base objects[] = {new SER(), new BER(), new TER()};
         for (Base object : objects) {
             for (int j = 0; j < 3; j++) {
@@ -111,12 +130,17 @@ public class Center_App {
         
         
         
-        
+        //Ez csak egy plus sor hogy a consolon jol nézen ki.
          System.out.println();
+         
+         
         //A center állapotainak tesztelése.
         System.out.println("        Hangsozró állapotainak tesztelése.");
+        
+        //létre hozom az input bekérésére szolgálo eltárt változot.
         InputStreamReader is = new InputStreamReader( System.in );
         change chain = new change();
+        //addig fut a ciklus ameddig történik input-ról érkező billentyűzet lenoymás.
         while (true) {
             System.out.print( "             Nyomja meg az  'Enter' gombot." );
 
