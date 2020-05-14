@@ -66,7 +66,7 @@ public class Center_App {
             
             for (Hangszoro hangszoro : center.hangszorok){
                 System.out.println("            a hangszoro márkája" +": " + hangszoro.getName());
-                //System.out.println(" Lejátszás módja: "+ hangszoro.getLejatszas_mode());
+                System.out.println(" Lejátszás módja: "+ hangszoro.getLejatszas_mode());
             }
             
         }
