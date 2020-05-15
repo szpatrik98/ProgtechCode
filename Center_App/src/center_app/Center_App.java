@@ -109,24 +109,7 @@ public class Center_App {
         shop.addTravel(go_to);
         shop.addTravel(now);
         
-        //Ez csak egy plus sor hogy a consolon jol nézen ki.
-        System.out.println();   
-       
-        
-        //visistor
-        
-        System.out.println("A telefonos megrendelés folymatai:  ");   
-        
-        // példányosítom a Base-t.
-        //utána végig megyek az objecteken addig ameddig tart az object és majd egy for ciklusal ami csak 3 ig megy
-        //kiirtaom a hivasokat.
-        Base objects[] = {new SER(), new BER(), new TER()};
-        for (Base object : objects) {
-            for (int j = 0; j < 3; j++) {
-                object.execute(objects[j]);
-            }
-            System.out.println();
-        }
+
         
         
         
