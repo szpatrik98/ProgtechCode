@@ -110,7 +110,7 @@ public class Center_App {
         shop.addTravel(now);
         
 
-        
+         
         
         
         //Ez csak egy plus sor hogy a consolon jol nézen ki.
