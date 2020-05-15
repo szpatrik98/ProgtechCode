@@ -10,8 +10,6 @@ egy gomb lenyomásával(ENTER gomb) váltana az állapotok között.
   Egy observert implementálva egy boltból megrendelt termék jelen esetünkbe a centert ki rendelte és a megrendelés típusa legyen
 fletüntvem mint pl:Chris- házhozszálitás.
 	
-A Visitor tervezési mintát meg arra szeretném leimplementálni hogy akár egy netes vagy betelefonálás megrendelés menete hogyan zajlik le a 3 fél között( az eladó/vevő/kiszáltó között).
-
 
 Unit tesztek leírása: - A konskroktor tesztelése a Center létrehozáásakor hogy minden megfelel-e?
 		      
